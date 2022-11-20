@@ -1,0 +1,5 @@
+Pages to be made:
+- Home Page
+- Single Product Page
+- Shopping Cart
+- Contact Info Page
