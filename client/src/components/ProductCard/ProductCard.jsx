@@ -1,11 +1,19 @@
 import './ProductCard.scss';
 
-const ProductCard = () => (
-  <div>
-    {/* <img src="/" alt="product image" /> */}
-    <h2>Name</h2>
+const ProductCard = ({ product }) => {
+  const {
+    name,
+    price,
+    category,
+  } = product;
 
-  </div>
-);
+  return (
+    <div className="card">
+      <h3>{ name }</h3>
+      <p>R{ price }</p>
+      <p>{ category }</p>
+    </div>
+  );
+};
 
 export default ProductCard;
